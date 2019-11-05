@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 0;
+}
+html,
+body,
+#app {
+  height: 100%;
+}
+body,
+input,
+button {
+  font: 14px "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  background: linear-gradient(-45deg, #aaa 25%, #eee 100%);
+  background-attachment: fixed;
+}
+
+/**
+* YOUR CODE HERE
+*/
+
+.logo {
+  display: block;
+  margin: -560px auto;
+  width: 50px;
+  height: 50px;
+}
+
+.logo2 {
+  display: block;
+  margin: 100px auto;
+  width: 50px;
+  height: 50px;
+}
+
+.login {
+  display: block;
+  background: rgb(226, 223, 223);
+  margin: 300px auto;
+  padding: 10px;
+  border-radius: 20px 0px;
+  width: 400px;
+  height: 180px;
+}
+
+.container {
+  display: block;
+  background: rgb(226, 223, 223);
+  margin: -90px auto;
+  padding: 10px;
+  width: 70%;
+  height: 620px;
+  border-radius: 10px;
+}
+
+.email,
+.senha,
+.entrar {
+  display: block;
+  background: lightgray;
+  width: 95%;
+  height: 40px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.entrar {
+  color: #fff;
+}
+
+.ul {
+  width: 100%;
+  height: 100px;
+}
+
+.li {
+  background: #fff;
+  width: 18%;
+  margin: 10px;
+  height: 40px;
+  float: left;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.avatar {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: -12px 0 0 5px;
+  filter: gray;
+  /* IE6-9 */
+  filter: grayscale(1);
+  /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+.avatar:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+
+  filter: none;
+  /* IE6-9 */
+  filter: none;
+  /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: none;
+  /* Google Chrome, Safari 6+ & Opera 15+ */
+}
