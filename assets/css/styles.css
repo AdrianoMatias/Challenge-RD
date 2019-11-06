@@ -120,8 +120,8 @@ body {
 }
 
 .avatar:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
 
   filter: none;
   /* IE6-9 */

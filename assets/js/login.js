@@ -42,7 +42,7 @@ Form.oninput = e => {
  * bloco de código preenchido
  * com formulário
  */
-Form.innerHTML = `<input  type="text" class="email" placeholder="Entre com seu e-mail" />
+Form.innerHTML = `<input  type="email" class="email" placeholder="Entre com seu e-mail" />
  <input type="password" class="senha" name="password" placeholder="Digite sua senha supersecreta" />
  <button class="entrar">Entrar</button>`;
 
