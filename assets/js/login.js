@@ -23,13 +23,15 @@ Form.onsubmit = async e => {
   const password = document.querySelector(".senha");
   /* trecho preenchido */
 
-  location.href = "users.html";
+  if (email.value && password.value.length >= 5) {
+    location.href = "users.html";
+  }
 };
 
 Form.oninput = e => {
   const [email, password, button] = e.target.parentElement.children;
 
-  if (email.value && password.value.length >= 5 && email.validity.valid) {
+  if (email.value && password.value.length >= 5) {
     button.removeAttribute("disabled");
     button.style.background = "green";
   } else {
